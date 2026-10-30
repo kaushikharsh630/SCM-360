@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Generated data (recreate with the seeded generator)
+data/raw/*.csv
+data/processed/*.csv
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# BI tool temp files
+*.twbr
+~$*
